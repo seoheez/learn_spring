@@ -1,0 +1,16 @@
+package com.spring.basic.ex01;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		/*
+//		Chef chef = new Chef();
+//		Restaurant res = new Restaurant(chef);
+//		Hotel hotel = new Hotel(res);   //한줄로
+		Hotel hotel = new Hotel(new Restaurant(new Chef())); 
+		hotel.reserveRestaurant();
+		*/
+	}
+
+}
