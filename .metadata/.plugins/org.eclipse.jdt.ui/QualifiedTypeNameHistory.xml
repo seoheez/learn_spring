@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="com.spring.basic.SpringTest"/>
-    <fullyQualifiedTypeName name="org.springframework.context.support.GenericXmlApplicationContext"/>
     <fullyQualifiedTypeName name="com.spring.basic.ex01.Hotel"/>
+    <fullyQualifiedTypeName name="com.spring.basic.ex02.DatabaseInfo"/>
+    <fullyQualifiedTypeName name="com.spring.basic.ex02.MemberDAO"/>
+    <fullyQualifiedTypeName name="com.spring.basic.ex03.Person"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+    <fullyQualifiedTypeName name="com.spring.basic.ex04.Printer"/>
+    <fullyQualifiedTypeName name="com.sun.tools.javac.resources.ct"/>
+    <fullyQualifiedTypeName name="org.springframework.context.support.GenericXmlApplicationContext"/>
 </qualifiedTypeNameHistroy>
