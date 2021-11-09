@@ -10,7 +10,8 @@ http://www.springframework.org/schema/beans/spring-beans.xsd">
 	<bean id="chef" class="com.spring.basic.ex01.Chef" />
 	
 	<bean id="res" class="com.spring.basic.ex01.Restaurant">
-		<constructor-arg ref="chef" />
+	<!--  	<constructor-arg ref="chef" />	-->
+		<property name="chef" ref="chef"/> <!-- name은 Restaurant에서 필드명 chef. ref는 10번째 줄에 Bean id. -->
 	</bean>
 	
 	<bean id="hotel" class="com.spring.basic.ex01.Hotel">

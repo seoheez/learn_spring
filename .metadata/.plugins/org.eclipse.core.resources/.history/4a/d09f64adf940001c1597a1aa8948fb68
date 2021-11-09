@@ -1,0 +1,22 @@
+package com.spring.basic.ex02;
+
+import org.springframework.context.support.GenericXmlApplicationContext;
+
+public class MainClass {
+	
+	public static void main(String[] args) {
+		/*
+		DatabaseInfo dbInfo = new DatabaseInfo();
+		dbInfo.setUid("spring1");
+		dbInfo.setUpw("sss123");
+		dbInfo.setUrl("jdbc:mysql://localhost:3306/spring");
+		*/
+		GenericXmlApplicationContext ct 
+			= new GenericXmlApplicationContext("classpath:db-config.xml");
+		
+		ct.getBean("db1", DatabaseInfo.class);
+		System.out.println("URL: " + db1.getUrl());
+		System.out.println("UID: " + db1.getUid());
+		System.out.println("UPW: " + db1.getUpw());
+	}
+}

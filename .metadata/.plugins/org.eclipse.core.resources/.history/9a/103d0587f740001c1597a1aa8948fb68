@@ -1,0 +1,8 @@
+package com.spring.basic.ex02;
+
+public class DatabaseInfo {
+	private String url;
+	private String uid;
+	private String upw;
+	
+}

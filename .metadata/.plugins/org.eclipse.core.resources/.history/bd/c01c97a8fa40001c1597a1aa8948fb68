@@ -1,0 +1,23 @@
+package com.spring.basic.ex02;
+
+import org.springframework.context.support.GenericXmlApplicationContext;
+
+public class MainClass {
+	
+	public static void main(String[] args) {
+		/*
+		DatabaseInfo dbInfo = new DatabaseInfo();
+		dbInfo.setUid("spring1");
+		dbInfo.setUpw("sss123");
+		dbInfo.setUrl("jdbc:mysql://localhost:3306/spring");
+		*/
+		GenericXmlApplicationContext ct 
+			= new GenericXmlApplicationContext("classpath:db-config.xml"); //db-config.xml에 Bean 등록해놓음.
+		
+		DatabaseInfo db1 = ct.getBean("db1", DatabaseInfo.class); //불러올 Bean 아이디는 db1 뿐. DatabaseInfo라는 class로 가져옴.
+		System.out.println("URL: " + db1.getUrl());
+		System.out.println("UID: " + db1.getUid());
+		System.out.println("UPW: " + db1.getUpw());
+		//이렇게 할 경우 데이터가 변경됐을 때 서버쪽 로직을 건들이지 않아도 되는 장점이 있음.
+	}
+}
