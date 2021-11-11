@@ -5,8 +5,8 @@
     <fullyQualifiedTypeName name="com.spring.basic.ex02.DatabaseInfo"/>
     <fullyQualifiedTypeName name="com.spring.basic.ex02.MemberDAO"/>
     <fullyQualifiedTypeName name="com.spring.basic.ex03.Person"/>
-    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
     <fullyQualifiedTypeName name="com.spring.basic.ex04.Printer"/>
     <fullyQualifiedTypeName name="com.sun.tools.javac.resources.ct"/>
     <fullyQualifiedTypeName name="org.springframework.context.support.GenericXmlApplicationContext"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
 </qualifiedTypeNameHistroy>
