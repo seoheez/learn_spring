@@ -47,4 +47,12 @@ public class HomeController {
 		System.out.println("/test 요청이 들어옴: GET방식!");
 		return "test";
 	}
+	
+	/*
+	@RequestMapping(value="/test", method=RequestMethod.GET)	//경로와 파일명이 같으면 void로 하고 return을 없애도 똑같음.
+	public void test() {
+		System.out.println("/test 요청이 들어옴: GET방식!");
+		//return "test";
+	}
+	*/
 }
